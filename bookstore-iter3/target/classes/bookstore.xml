@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+  "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+  "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+  <package name="bookstore" extends="default">
+
+    <interceptors>
+      <interceptor name="loginInterceptor" class="loginInterceptor" />
+    </interceptors>
+
+    <action name="index" class="bookstore.action.IndexAction">
+      <interceptor-ref name="defaultStack"/>
+      <interceptor-ref name="loginInterceptor"/>
+      <result name="success">/index.jsp</result>
+    </action>
+
+    <action name="login" class="login">
+      <interceptor-ref name="defaultStack"/>
+      <interceptor-ref name="loginInterceptor"/>
+      <result name="success">/success.jsp</result>
+      <result name="this">/login.jsp</result>
+    </action>
+    
+    <action name="register" class="register">
+      <interceptor-ref name="defaultStack"/>
+      <interceptor-ref name="loginInterceptor"/>
+      <result name="success">/success.jsp</result>
+      <result name="this">/register.jsp</result>
+    </action>
+    
+    <action name="exit" class="exit">
+      <interceptor-ref name="defaultStack"/>
+      <interceptor-ref name="loginInterceptor"/>
+      <result name="success">/indexredirect.jsp</result>
+    </action>
+    
+    <action name="add_balance" class="add_balance">
+      <interceptor-ref name="defaultStack"/>
+      <interceptor-ref name="loginInterceptor"/>
+      <result name="success">/success.jsp</result>
+      <result name="this">/add_balance.jsp</result>
+    </action>
+    
+    <action name="modify_password" class="modify_password">
+      <interceptor-ref name="defaultStack"/>
+      <interceptor-ref name="loginInterceptor"/>
+      <result name="success">/success.jsp</result>
+      <result name="this">/modify_password.jsp</result>
+    </action>
+    
+    <action name="modify_userinfo" class="modify_userinfo">
+      <interceptor-ref name="defaultStack"/>
+      <interceptor-ref name="loginInterceptor"/>
+      <result name="success">/success.jsp</result>
+      <result name="this">/modify_userinfo.jsp</result>
+    </action>
+    
+    <action name="delete_current_user" class="delete_current_user">
+      <interceptor-ref name="defaultStack"/>
+      <interceptor-ref name="loginInterceptor"/>
+      <result name="success">/delete_current_user_success.jsp</result>
+      <result name="warning">/delete_current_user_warning.jsp</result>
+    </action>
+
+    <action name="view_book" class="view_book">
+      <interceptor-ref name="defaultStack"/>
+      <interceptor-ref name="loginInterceptor"/>
+      <result name="success">/view_book.jsp</result>
+    </action>
+    
+    <action name="query_book" class="query_book">
+      <interceptor-ref name="defaultStack"/>
+      <interceptor-ref name="loginInterceptor"/>
+      <result name="success">/query_book_result.jsp</result>
+      <result name="search">/query_book_search.jsp</result>
+    </action>
+    
+    <action name="shopping_cart" class="shopping_cart">
+      <interceptor-ref name="defaultStack"/>
+      <interceptor-ref name="loginInterceptor"/>
+      <result name="success">/success.jsp</result>
+      <result name="this">/shopping_cart.jsp</result>
+    </action>
+    
+    <action name="view_orders" class="view_orders">
+      <interceptor-ref name="defaultStack"/>
+      <interceptor-ref name="loginInterceptor"/>
+      <result name="list">/view_orders_list.jsp</result>
+      <result name="selected">/view_order_selected.jsp</result>
+    </action>
+
+    <action name="view_user" class="view_user">
+      <interceptor-ref name="defaultStack"/>
+      <interceptor-ref name="loginInterceptor"/>
+      <result name="success">/view_user.jsp</result>
+    </action>
+
+    <action name="query_user" class="query_user">
+      <interceptor-ref name="defaultStack"/>
+      <interceptor-ref name="loginInterceptor"/>
+      <result name="success">/query_user_result.jsp</result>
+      <result name="search">/query_user_search.jsp</result>
+    </action>
+
+    <action name="add_book" class="add_book">
+      <interceptor-ref name="defaultStack"/>
+      <interceptor-ref name="loginInterceptor"/>
+      <result name="success">/success.jsp</result>
+      <result name="this">/add_book.jsp</result>
+    </action>
+    
+    <action name="sale_statistics" class="sale_statistics">
+      <interceptor-ref name="defaultStack"/>
+      <interceptor-ref name="loginInterceptor"/>
+      <result name="list">/sale_statistics_list.jsp</result>
+      <result name="order">/sale_statistics_order.jsp</result>
+      <result name="byuser">/sale_statistics_byuser.jsp</result>
+      <result name="byday">/sale_statistics_byday.jsp</result>
+      <result name="bymonth">/sale_statistics_bymonth.jsp</result>
+      <result name="byyear">/sale_statistics_byyear.jsp</result>
+      <result name="bycategory">/sale_statistics_bycategory.jsp</result>
+    </action>
+
+    <!-- Ajax Actions -->
+
+    <action name="check_username" class="check_username">
+      <result type="json">
+        <param name="root">result</param>
+      </result>
+    </action>
+
+    <action name="add_to_cart" class="add_to_cart">
+      <result type="json">
+        <param name="root">result</param>
+        <param name="contentType">text/html</param>
+      </result>
+    </action>
+    
+    <action name="remove_from_cart" class="remove_from_cart">
+      <result type="json">
+        <param name="root">result</param>
+        <param name="contentType">text/html</param>
+      </result>
+    </action>
+    
+    <action name="delete_user" class="delete_user">
+      <result type="json">
+        <param name="root">result</param>
+        <param name="contentType">text/html</param>
+      </result>
+    </action>
+
+    <action name="check_ISBN" class="check_ISBN">
+      <result type="json">
+        <param name="root">result</param>
+      </result>
+    </action>
+
+  </package>
+</struts>

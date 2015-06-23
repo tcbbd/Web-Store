@@ -1,0 +1,924 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Line",
+				"LineSegment〔class〕"
+			],
+			[
+				"No",
+				"NoPoints"
+			],
+			[
+				"E",
+				"Epsilon"
+			],
+			[
+				"N",
+				"NoPoints"
+			],
+			[
+				"real",
+				"real_close"
+			],
+			[
+				"intersectLin",
+				"intersectLineSegment"
+			],
+			[
+				"eval",
+				"eval_prog"
+			],
+			[
+				"if",
+				"ife	if … else … end"
+			],
+			[
+				"prep",
+				"preprocess_prog"
+			],
+			[
+				"geom",
+				"geom_exp"
+			],
+			[
+				"real_close_p",
+				"real_close_point"
+			],
+			[
+				"pre",
+				"preprocess_prog"
+			],
+			[
+				"cla",
+				"cla	class .. initialize .. end"
+			],
+			[
+				"run",
+				"runMyTetris〔function〕"
+			],
+			[
+				"My",
+				"MyBoard"
+			],
+			[
+				"t",
+				"true"
+			],
+			[
+				"set",
+				"setUsers"
+			],
+			[
+				"ab",
+				"ab	abstract"
+			],
+			[
+				"user",
+				"getUsers"
+			],
+			[
+				"search",
+				"setSearch"
+			],
+			[
+				"p",
+				"php	<?php … ?>"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/Work/Digital_Circuit/sc_computer_student_2/program.txt",
+			"settings":
+			{
+				"buffer_size": 3613,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Work/Digital_Circuit/sc_computer_student_2/sc_computer_student/simulation/modelsim/test_instmem.hex",
+			"settings":
+			{
+				"buffer_size": 5702,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Work/Digital_Circuit/sc_computer_student_2/sc_computer_student/simulation/modelsim/test_datamem.hex",
+			"settings":
+			{
+				"buffer_size": 207,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Work/Digital_Circuit/FPGA/Lab/Lab3/Lab3.v",
+			"settings":
+			{
+				"buffer_size": 3464,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"listp",
+				"Package Control: List Packages"
+			],
+			[
+				"8",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"utf",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"gitgu",
+				"GitGutter: Show Comparing Against"
+			],
+			[
+				"git",
+				"Git: Blame"
+			],
+			[
+				"gitsta",
+				"Git: Status"
+			],
+			[
+				"prve",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"mit",
+				"Licence Snippet: MIT Licence [Header] [Full Text]"
+			],
+			[
+				"colorsubl",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 514.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"mit",
+			"view.settings().get(\"auto_complete_with_fields\")",
+			"view.settings().get(\"auto_complete_commit_on_tab\")",
+			"view.settings()",
+			"view.settings",
+			"view",
+			"setting.tab_completion",
+			"setting",
+			"settings",
+			"sublime.version()",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Work/程序语言/hw3",
+		"/D/Work/程序语言/hw6",
+		"/D/Work/程序语言/hw7"
+	],
+	"file_history":
+	[
+		"/D/Downloads/ToolKit/Others/Shadowsocks-win-2.3.1/gui-config.json",
+		"/D/Downloads/ToolKit/Others/Shadowsocks-win-2.3/gui-config.json",
+		"/D/Work/Digital_Circuit/sc_computer_student_1/program.txt",
+		"/D/Work/Digital_Circuit/sc_computer_student_2/program.txt",
+		"/D/Work/Digital_Circuit/sc_computer_student_1/sc_computer_student/source/sc_cpu.v",
+		"/D/Work/程序语言/hw7/hw7.rb",
+		"/D/Work/程序语言/hw7/hw.rb",
+		"/D/Work/程序语言/hw7/hw7testsprovided.rb",
+		"/D/Work/程序语言/hw7/hw7.sml",
+		"/D/Work/程序语言/hw7/hw7testsprovided.sml",
+		"/D/Work/程序语言/hw7/hw.sml",
+		"/D/Backup/dir0004.chk/icslabs/lab7/pipe-full.hcl",
+		"/D/Backup/dir0004.chk/icslabs/lab7/sim/pipe/pipe-full.hcl",
+		"/D/Work/Digital_Circuit/sc_computer_student_2/sc_computer_student/simulation/modelsim/msim_transcript",
+		"/D/Work/Digital_Circuit/sc_computer_student_2/sc_computer_student/sc_computer.sdc",
+		"/D/Work/Digital_Circuit/pipeline_testcode_mif_01/test_instmem.mif",
+		"/D/Work/Digital_Circuit/pipeline_testcode_mif_01/test_datamem.mif",
+		"/D/Work/Digital_Circuit/demo_3moudle_source_02/pipeexe.v",
+		"/D/Work/Digital_Circuit/demo_3moudle_source_02/pipedereg.v",
+		"/D/Work/Digital_Circuit/FPGA/Lab/Lab3/Lab3.v",
+		"/D/Work/Digital_Circuit/sc_computer_student_1/sc_computer_student/simulation/modelsim/sc_datamem.hex",
+		"/D/Work/Digital_Circuit/sc_computer_student_1/sc_instmem.mif",
+		"/D/Work/Digital_Circuit/sc_computer_student_1/sc_computer_student/simulation/modelsim/sc_instmem.hex",
+		"/D/Backup/dir0004.chk/icslabs/lab7/ncopy.ys",
+		"/D/Game/Music Games/Jubeat/1/1/10.赤发/infov2.plist",
+		"/D/Work/程序语言/hw3/hw3provided.sml",
+		"/D/Work/程序语言/hw5/hw5.rkt",
+		"/D/Work/Digital_Circuit/demo_3moudle_source_02/pipepc.v",
+		"/D/Backup/dir0004.chk/icslabs/lab7/sim/pipe/ncopy.ys",
+		"/D/Game/Offline Games/DiabloII/暗黑破坏神II毁灭之王1.10/Crashdump",
+		"/D/Work/程序语言/hw6/test.rb",
+		"/D/Work/程序语言/hw6/hw6assignment.rb",
+		"/D/Work/程序语言/hw6/hw.rb",
+		"/D/Work/程序语言/hw6/hw6runner.rb",
+		"/D/Work/程序语言/hw6/hw6provided.rb",
+		"/C/Ruby22-x64/lib/ruby/2.2.0/tk.rb",
+		"/D/Work/程序语言/hw6/hw6graphics.rb",
+		"/D/Game/Online Games/kancolle/KanColleViewer ver.3.8-db/KanColleViewer ver.3.8-db/KanColleViewer.exe.config",
+		"/D/Work/Digital_Circuit/sc_computer_student_2/sc_computer_student/source/sc_cpu.v",
+		"/D/Game/Online Games/kancolle/KanColleViewer ver.3.8-db/KanColleViewer ver.3.8-db/readme.txt",
+		"/D/Work/Digital_Circuit/sc_computer_student_1/sc_computer_student/simulation/modelsim/modelsim.ini",
+		"/D/Work/Digital_Circuit/sc_computer_student_1/sc_datamem.v",
+		"/D/Game/Music Games/Jubeat/1/1/9.千年之理/infov2.plist",
+		"/D/Work/Digital_Circuit/sc_computer_student_1/sc_computer_student/simulation/modelsim/msim_transcript",
+		"/D/Work/Digital_Circuit/sc_computer_student_1/sc_computer_student/simulation/modelsim/sc_datamem.mif",
+		"/D/Work/Digital_Circuit/sc_computer_student_1/sc_computer_student/simulation/modelsim/sc_instmem.mif",
+		"/D/Game/Music Games/Jubeat/100030002/memo.txt",
+		"/D/Work/Digital_Circuit/sc_computer_student_1/sc_datamem.mif",
+		"/D/Work/Digital_Circuit/sc_computer_student_1/sc_computer_student/source/sc_instmem.hex",
+		"/D/Work/Digital_Circuit/sc_computer_student_1/sc_computer_student/source/sc_computer_test_wave_01.vwf",
+		"/D/Work/Digital_Circuit/sc_computer_student_1/sc_computer_student/simulation/modelsim/vsim.wlf",
+		"/D/Game/Music Games/Jubeat/BEMANIx東方/900000001/infov2d",
+		"/D/Work/程序语言/hw5/hw.rkt",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/mulist.dat",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/951000009/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/951000008/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/951000007/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/951000001/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000031/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000030/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000029/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000028/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000027/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000026/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/900000093/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/900000002/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/900000001/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/951000006/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/951000004/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/951000003/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/951000002/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000043/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000042/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000041/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000040/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000039/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000038/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000037/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000036/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000035/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000034/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000033/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000025/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000024/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000023/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000022/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000021/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000020/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000019/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000018/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000017/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000016/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000015/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000014/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000013/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000012/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000011/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000010/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000009/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000008/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000007/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000006/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000005/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000032/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000004/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000003/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000002/infov2.plist",
+		"/D/Game/Music Games/Jubeat/jubeat AC v3.5.7/Container/Documents/950000001/infov2.plist",
+		"/D/Game/Music Games/Jubeat/1/1/6.SMM/infov2",
+		"/D/Game/Music Games/Jubeat/1/1/5.NEON/infov2.plist",
+		"/D/Game/Music Games/Jubeat/1/1/5.NEON/infov2",
+		"/D/Game/Music Games/Jubeat/1/1/5.NEON/seq_ext.txt",
+		"/D/Game/Music Games/Jubeat/1/1/4.CAT/infov2.plist",
+		"/D/Game/Music Games/Jubeat/1/1/2.RCR/infov2.plist",
+		"/D/Game/Music Games/Jubeat/1/1/3.PHQ/infov2",
+		"/D/Game/Music Games/Jubeat/1/1/2.RCR/infov2",
+		"/D/Game/Music Games/Jubeat/1/1/1.BNW/infov2.plist",
+		"/D/Game/Music Games/Jubeat/1/1/1.BNW/infov2",
+		"/D/Game/Music Games/Jubeat/100000825/infov2d",
+		"/D/Game/Music Games/Jubeat/100000710/infov2d",
+		"/D/Tools/Qt/Qt5.2.0/Tools/QtCreator/bin/build-JubeatPlus-Desktop_Qt_5_2_0_MinGW_32bit-Release/release/beat-new-world.txt",
+		"/C/Users/lenovo/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/Work/Web/Iteration3/bookstore-iter3/src/main/java/bookstore/action/RegisterAction.java",
+		"/D/Game/Music Games/Jubeat/jubeat plus/Library/Caches/musiccache",
+		"/D/Game/Music Games/Jubeat/mulist.dat",
+		"/D/Game/Music Games/Jubeat/BEMANIx東方/beat-new-world.txt",
+		"/D/Work/Web/Iteration2/Project/src/bookstore/UserLoginFilter.java",
+		"/D/Work/Web/Iteration2/Project/WebContent/WEB-INF/web.xml"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\lenovo\\AppData\\Roaming\\Sublime Text 3\\Packages\\Theme - Nexus\\Prefs",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"valP",
+			"bind",
+			"defaultRadix",
+			"Veriuser",
+			"born to be",
+			"december breeze",
+			"宇宙",
+			"8-eight",
+			">V",
+			"V",
+			"var-string",
+			"回想",
+			"css",
+			"high_visibility",
+			"icon",
+			"tree_row",
+			"icon",
+			"icon_file",
+			"icon",
+			"prefs",
+			"jsp",
+			"icon",
+			"Afterglow",
+			"Nexus",
+			"ctrl+space",
+			"alt\\+.*/.*",
+			"alt+/",
+			"alt+",
+			"phase",
+			"blink",
+			"smooth",
+			"solid",
+			"phase",
+			"true",
+			"div",
+			"class=\"(.*?)\"",
+			"required",
+			"<(.*?)>(.|\\n)*</\\1>",
+			"<(.*?)>(.|\\n)*?</\\1>",
+			"<(.*?)>(.|\\n)*</\\1>",
+			"<(.*?)>(.|\\n)*?</\\1>",
+			"<(.*?)>(.|\\n)*</\\1>",
+			"<(.*?)>)(.|\\n)*</\\1>",
+			"<(.*?)>.*</\\1>",
+			"<(.*?\\)>.*</\\1>",
+			"<(.*?)>.*</\\1>",
+			"(?=<(.*)>).*(?=</\\1>)",
+			"required",
+			"requi",
+			"book",
+			"return",
+			"artifactId",
+			"dependency"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\1\\1\\1",
+			"",
+			"\\1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "D:\\Work\\程序语言\\hw3"
+		},
+		{
+			"path": "D:\\Work\\程序语言\\hw6"
+		},
+		{
+			"path": "D:\\Work\\Digital_Circuit\\sc_computer_student_1\\sc_computer_student\\source"
+		},
+		{
+			"path": "D:\\Work\\程序语言\\hw7"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/Work/Digital_Circuit/sc_computer_student_2/program.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3613,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3613,
+								3613
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/peacock (SL).tmTheme",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/Work/Digital_Circuit/sc_computer_student_2/sc_computer_student/simulation/modelsim/test_instmem.hex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5702,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3017,
+								3017
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/peacock (SL).tmTheme",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/Work/Digital_Circuit/sc_computer_student_2/sc_computer_student/simulation/modelsim/test_datamem.hex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								207,
+								207
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/peacock (SL).tmTheme",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/Work/Digital_Circuit/FPGA/Lab/Lab3/Lab3.v",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								837,
+								837
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/peacock (SL).tmTheme",
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 13470.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 94.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"da",
+				"src\\main\\java\\bookstore\\action\\DeleteCurrentUserAction.java"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Work\\Web\\Iteration3\\bookstore-iter3\\src\\main\\java\\bookstore\\action\\a.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

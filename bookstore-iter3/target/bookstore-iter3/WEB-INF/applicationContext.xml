@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:aop="http://www.springframework.org/schema/aop"
+  xmlns:tx="http://www.springframework.org/schema/tx"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xsi:schemaLocation="
+    http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/tx
+    http://www.springframework.org/schema/tx/spring-tx.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+  <context:annotation-config/>
+
+  <bean id="dataSource" class="org.apache.tomcat.dbcp.dbcp.BasicDataSource">
+    <property name="driverClassName" value="com.mysql.jdbc.Driver" />
+    <property name="url" value="jdbc:mysql://localhost:3306/webproject" />
+    <property name="username" value="root" />
+    <property name="password" value="waibazihaoqiang" />
+  </bean>
+
+  <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+    <property name="dataSource" ref="dataSource" />
+    <property name="hibernateProperties">
+      <props>
+        <!-- SQL dialect -->
+        <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>
+
+        <!-- Disable the second-level cache  -->
+        <prop key="hibernate.cache.provider_class">org.hibernate.cache.internal.NoCacheProvider</prop>
+
+        <!-- Echo all executed SQL to stdout -->
+        <prop key="hibernate.show_sql">true</prop>
+
+        <!-- Drop and re-create the database schema on startup -->
+        <prop key="hibernate.hbm2ddl.auto">update</prop>
+      </props>
+    </property>
+    <property name="mappingResources">
+      <list>
+        <value>bookstore/model/User.hbm.xml</value>
+        <value>bookstore/model/UUID.hbm.xml</value>
+        <value>bookstore/model/Book.hbm.xml</value>
+        <value>bookstore/model/CartEntry.hbm.xml</value>
+        <value>bookstore/model/Order.hbm.xml</value>
+        <value>bookstore/model/OrderEntry.hbm.xml</value>
+      </list>
+    </property>
+  </bean>
+
+  <!-- enable the configuration of transactional behavior based on annotations -->
+  <tx:annotation-driven transaction-manager="txManager"/>
+
+  <bean id="txManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+    <property name="sessionFactory" ref="sessionFactory" />
+  </bean>
+
+  <!-- DAOs -->
+  
+  <bean id="userDao" class="bookstore.dao.impl.UserDaoImpl"></bean>
+  
+  <bean id="UUIDDao" class="bookstore.dao.impl.UUIDDaoImpl"></bean>
+  
+  <bean id="BookDao" class="bookstore.dao.impl.BookDaoImpl"></bean>
+  
+  <bean id="CartEntryDao" class="bookstore.dao.impl.CartEntryDaoImpl"></bean>
+  
+  <bean id="OrderDao" class="bookstore.dao.impl.OrderDaoImpl"></bean>
+  
+  <!-- Services -->
+  
+  <bean id="UUIDService" class="bookstore.service.impl.UUIDServiceImpl"></bean>
+  
+  <bean id="loginService" class="bookstore.service.impl.LoginServiceImpl">
+    <property name="errorInfo" value=""/>
+  </bean>
+  
+  <bean id="userService" class="bookstore.service.impl.UserServiceImpl"></bean>
+  
+  <bean id="BookService" class="bookstore.service.impl.BookServiceImpl"></bean>
+  
+  <bean id="OrderService" class="bookstore.service.impl.OrderServiceImpl"></bean>
+  
+  <!-- Interceptors and Actions -->
+  
+  <bean id="loginInterceptor" class="bookstore.interceptor.UserLoginInterceptor"></bean>
+  
+  <bean id="login" class="bookstore.action.LoginAction">
+    <property name="successInfo" value="登录成功，跳转中。。。"></property>
+  </bean>
+
+  <bean id="register" class="bookstore.action.RegisterAction">
+    <property name="successInfo" value="注册成功，跳转中。。。"></property>
+  </bean>
+
+  <bean id="exit" class="bookstore.action.ExitAction"></bean>
+  
+  <bean id="add_balance" class="bookstore.action.AddBalanceAction">
+    <property name="successInfo" value="充值成功，跳转中。。。"></property>
+  </bean>
+  
+  <bean id="modify_password" class="bookstore.action.ModifyPasswordAction">
+    <property name="successInfo" value="密码修改成功，跳转中。。。"></property>
+  </bean>
+  
+  <bean id="modify_userinfo" class="bookstore.action.ModifyUserinfoAction">
+    <property name="successInfo" value="个人信息修改成功，跳转中。。。"></property>
+  </bean>
+  
+  <bean id="delete_current_user" class="bookstore.action.DeleteCurrentUserAction"></bean>
+  
+  <bean id="view_book" class="bookstore.action.ViewBookAction"></bean>
+  
+  <bean id="query_book" class="bookstore.action.QueryBookAction"></bean>
+  
+  <bean id="shopping_cart" class="bookstore.action.ShoppingCartAction">
+    <property name="successInfo" value="购买成功，跳转中。。。"></property>
+  </bean>
+
+  <bean id="view_orders" class="bookstore.action.ViewOrdersAction"></bean>
+
+  <bean id="view_user" class="bookstore.action.ViewUserAction"></bean>
+  
+  <bean id="query_user" class="bookstore.action.QueryUserAction"></bean>
+  
+  <bean id="add_book" class="bookstore.action.AddBookAction">
+    <property name="successInfo" value="添加书籍成功，跳转中。。。"></property>
+  </bean>
+  
+  <bean id="sale_statistics" class="bookstore.action.SaleStatisticsAction"></bean>
+
+  <!-- Ajax Actions -->
+
+  <bean id="check_username" class="bookstore.action.ajax.CheckUsernameAction"></bean>
+
+  <bean id="add_to_cart" class="bookstore.action.ajax.AddToCartAction">
+    <property name="result" value="成功加入购物车"></property>
+  </bean>
+  
+  <bean id="remove_from_cart" class="bookstore.action.ajax.RemoveFromCartAction">
+    <property name="result" value="成功移出购物车"></property>
+  </bean>
+  
+  <bean id="delete_user" class="bookstore.action.ajax.DeleteUserAction">
+    <property name="result" value="成功删除"></property>
+  </bean>
+
+  <bean id="check_ISBN" class="bookstore.action.ajax.CheckISBNAction"></bean>
+
+</beans>

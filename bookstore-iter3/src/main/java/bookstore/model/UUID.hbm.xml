@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name="bookstore.model.UUID" table="remembered_user">
+      <id name="uuid" type="string" column="UUID"></id>
+      <many-to-one name="user" column="username" class="bookstore.model.User" not-null="true"/>
+   </class>
+</hibernate-mapping>

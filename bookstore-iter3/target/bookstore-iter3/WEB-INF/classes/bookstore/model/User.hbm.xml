@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name="bookstore.model.User" table="user">
+      <id name="username" type="string" column="username"></id>
+      <property name="password" column="password" type="string"/>
+      <property name="email" column="email" type="string"/>
+      <property name="phone" column="phone" type="string"/>
+      <property name="male" column="ismale" type="boolean"/>
+      <property name="admin" column="isadmin" type="boolean"/>
+      <property name="removed" column="isremoved" type="boolean"/>
+      <property name="balance" column="balance" type="int"/>
+      <set name="cart" cascade="save-update" inverse="true">
+        <key column="username"/>
+        <one-to-many class="bookstore.model.CartEntry"/>
+      </set>
+      <set name="orders" cascade="save-update" inverse="true">
+        <key column="username"/>
+        <one-to-many class="bookstore.model.Order"/>
+      </set>
+   </class>
+</hibernate-mapping>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name="bookstore.model.Order" table="orders">
+      <id name="id" type="int" column="orderID">
+        <generator class="identity"/>
+      </id>
+      <many-to-one name="user" column="username" class="bookstore.model.User" not-null="true"/>
+      <property name="time" column="time" type="timestamp"/>
+      <property name="totalPrice" column="total_price" type="int"/>
+      <set name="entries" cascade="save-update" inverse="true">
+        <key column="orderID"/>
+        <one-to-many class="bookstore.model.OrderEntry"/>
+      </set>
+   </class>
+</hibernate-mapping>
